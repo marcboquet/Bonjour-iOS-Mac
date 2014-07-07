@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BD41961E4D4290B1338385 /* NSScanner+DTBonjour.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A9F0752914CD898B5949D /* NSScanner+DTBonjour.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0D059A935F1A466DB0F3EEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EE4E4A0E1B4E5DA88C3C7E /* Foundation.framework */; };
+		24C2FDD49EB24C72A5A18887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EE4E4A0E1B4E5DA88C3C7E /* Foundation.framework */; };
+		3CBE4392F5094E3C816CDB35 /* DTBonjourServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F00A7DFFDFDC45F2991716C1 /* DTBonjourServer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		54480B80D5584AF4AF8B8B2E /* Pods-DTBonjour-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EA9B7C36243C296F1EB3F /* Pods-DTBonjour-dummy.m */; };
+		5561B0A43A8E4490BDB9F5D3 /* DTBonjourDataChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB0B43B67E4C05B50F401B /* DTBonjourDataChunk.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		76969D84467D49698F57CC2A /* libPods-DTBonjour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1508FA9634482CB439FE30 /* libPods-DTBonjour.a */; };
+		90CC0B7E36C544B2A31BD181 /* DTBonjourServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B1236585F59648B3BE7AD243 /* DTBonjourServer.h */; };
+		9BBD67D8574349CAB1275993 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B7B49DEB094DFCA9DE2FEA /* CoreFoundation.framework */; };
+		AA0980DB2E56442B9BE384C6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 526B71C951DA4E3188BDD971 /* Pods-dummy.m */; };
+		C207A22399194CCFB808B5FE /* DTBonjourDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 96698F9F3C58428C9BD56812 /* DTBonjourDataConnection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C58832C958B441B692FC402B /* DTBonjourDataConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 336AE1A6D9D943A793F63FB8 /* DTBonjourDataConnection.h */; };
+		DEDD2337EB5142B29651EDF9 /* NSScanner+DTBonjour.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A72B38279049CDBEF47804 /* NSScanner+DTBonjour.h */; };
+		E91E1D5138D14373949104BB /* DTBonjourDataChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = D1171EC18E1E40648AD7B828 /* DTBonjourDataChunk.h */; };
+		EB4FB69E08DA48CDB7BEE626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAAA809475641E9830232C8 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B51F3D533004B8AB3F4F464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74A97E701064907A16A74B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F81CB08B9C4A31AF48DB0E;
+			remoteInfo = "Pods-DTBonjour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C2F2DE43E6464C9F05A195 /* Pods-DTBonjour-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTBonjour-Private.xcconfig"; sourceTree = "<group>"; };
+		2D6EA9B7C36243C296F1EB3F /* Pods-DTBonjour-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTBonjour-dummy.m"; sourceTree = "<group>"; };
+		2DB5DC5329CF46989A0169CF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		336AE1A6D9D943A793F63FB8 /* DTBonjourDataConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBonjourDataConnection.h; path = Core/Source/DTBonjourDataConnection.h; sourceTree = "<group>"; };
+		37EE4E4A0E1B4E5DA88C3C7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BAAA809475641E9830232C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		526B71C951DA4E3188BDD971 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		58CE43FD7F8845D8AE3BDA6E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FEE3AF699A347C1B5B6BACC /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		68B7B49DEB094DFCA9DE2FEA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		72A848F4B0C6495EB4352556 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		7D000706DCC44538A563F59A /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F1508FA9634482CB439FE30 /* libPods-DTBonjour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTBonjour.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBB0B43B67E4C05B50F401B /* DTBonjourDataChunk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBonjourDataChunk.m; path = Core/Source/DTBonjourDataChunk.m; sourceTree = "<group>"; };
+		86A72B38279049CDBEF47804 /* NSScanner+DTBonjour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+DTBonjour.h"; path = "Core/Source/NSScanner+DTBonjour.h"; sourceTree = "<group>"; };
+		96698F9F3C58428C9BD56812 /* DTBonjourDataConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBonjourDataConnection.m; path = Core/Source/DTBonjourDataConnection.m; sourceTree = "<group>"; };
+		A78674F3DAD3434B8E05A96F /* Pods-DTBonjour.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTBonjour.xcconfig"; sourceTree = "<group>"; };
+		B1236585F59648B3BE7AD243 /* DTBonjourServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBonjourServer.h; path = Core/Source/DTBonjourServer.h; sourceTree = "<group>"; };
+		B35A9F0752914CD898B5949D /* NSScanner+DTBonjour.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScanner+DTBonjour.m"; path = "Core/Source/NSScanner+DTBonjour.m"; sourceTree = "<group>"; };
+		BFC72A84280145D9890227FB /* Pods-DTBonjour-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTBonjour-prefix.pch"; sourceTree = "<group>"; };
+		C48D0D150B0D44AFBF7B0E05 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C49D1A2560D84D7EBE2A1C44 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1171EC18E1E40648AD7B828 /* DTBonjourDataChunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBonjourDataChunk.h; path = Core/Source/DTBonjourDataChunk.h; sourceTree = "<group>"; };
+		F00A7DFFDFDC45F2991716C1 /* DTBonjourServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBonjourServer.m; path = Core/Source/DTBonjourServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128CF43716BF4568AFF28AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBD67D8574349CAB1275993 /* CoreFoundation.framework in Frameworks */,
+				24C2FDD49EB24C72A5A18887 /* Foundation.framework in Frameworks */,
+				EB4FB69E08DA48CDB7BEE626 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D453D0FA7B524A679A251559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D059A935F1A466DB0F3EEB8 /* Foundation.framework in Frameworks */,
+				76969D84467D49698F57CC2A /* libPods-DTBonjour.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0311736A4C1A4168A3BCF145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A848F4B0C6495EB4352556 /* Pods.xcconfig */,
+				C49D1A2560D84D7EBE2A1C44 /* Pods-acknowledgements.markdown */,
+				7D000706DCC44538A563F59A /* Pods-acknowledgements.plist */,
+				526B71C951DA4E3188BDD971 /* Pods-dummy.m */,
+				5FEE3AF699A347C1B5B6BACC /* Pods-environment.h */,
+				C48D0D150B0D44AFBF7B0E05 /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		06BC0B5903A142B3A41CD1D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB5DC5329CF46989A0169CF /* libPods.a */,
+				7F1508FA9634482CB439FE30 /* libPods-DTBonjour.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		352023DD37DE4FC8B17F973C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				68B7B49DEB094DFCA9DE2FEA /* CoreFoundation.framework */,
+				37EE4E4A0E1B4E5DA88C3C7E /* Foundation.framework */,
+				4BAAA809475641E9830232C8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		368CD45AF3344EB7ADC9FF3C /* DTBonjour */ = {
+			isa = PBXGroup;
+			children = (
+				D1171EC18E1E40648AD7B828 /* DTBonjourDataChunk.h */,
+				7FBB0B43B67E4C05B50F401B /* DTBonjourDataChunk.m */,
+				336AE1A6D9D943A793F63FB8 /* DTBonjourDataConnection.h */,
+				96698F9F3C58428C9BD56812 /* DTBonjourDataConnection.m */,
+				B1236585F59648B3BE7AD243 /* DTBonjourServer.h */,
+				F00A7DFFDFDC45F2991716C1 /* DTBonjourServer.m */,
+				86A72B38279049CDBEF47804 /* NSScanner+DTBonjour.h */,
+				B35A9F0752914CD898B5949D /* NSScanner+DTBonjour.m */,
+				3F193A5E30B344059CBF088F /* Support Files */,
+			);
+			path = DTBonjour;
+			sourceTree = "<group>";
+		};
+		3F193A5E30B344059CBF088F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78674F3DAD3434B8E05A96F /* Pods-DTBonjour.xcconfig */,
+				09C2F2DE43E6464C9F05A195 /* Pods-DTBonjour-Private.xcconfig */,
+				2D6EA9B7C36243C296F1EB3F /* Pods-DTBonjour-dummy.m */,
+				BFC72A84280145D9890227FB /* Pods-DTBonjour-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		8053608943C04F99A5487ED9 = {
+			isa = PBXGroup;
+			children = (
+				58CE43FD7F8845D8AE3BDA6E /* Podfile */,
+				E2C50CBA50B04710B6E8D4D6 /* Frameworks */,
+				AF173073F36746B9B75D9356 /* Pods */,
+				06BC0B5903A142B3A41CD1D0 /* Products */,
+				BB3F287ECA6F42EABAD61CCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF173073F36746B9B75D9356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				368CD45AF3344EB7ADC9FF3C /* DTBonjour */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB3F287ECA6F42EABAD61CCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0311736A4C1A4168A3BCF145 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2C50CBA50B04710B6E8D4D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				352023DD37DE4FC8B17F973C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B989C5CE06BE469097BB996A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91E1D5138D14373949104BB /* DTBonjourDataChunk.h in Headers */,
+				C58832C958B441B692FC402B /* DTBonjourDataConnection.h in Headers */,
+				90CC0B7E36C544B2A31BD181 /* DTBonjourServer.h in Headers */,
+				DEDD2337EB5142B29651EDF9 /* NSScanner+DTBonjour.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DFE193A5F804E37A1DA58D3 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A4D7D19B10409CB6EB0CA0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				786DF994ECF3493E89AC6867 /* Sources */,
+				D453D0FA7B524A679A251559 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2CACD6AAAB44C784E6E509 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 2DB5DC5329CF46989A0169CF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53F81CB08B9C4A31AF48DB0E /* Pods-DTBonjour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2A8E2245824768AB3D75AA /* Build configuration list for PBXNativeTarget "Pods-DTBonjour" */;
+			buildPhases = (
+				C263C7C7F18B4440B284AADF /* Sources */,
+				128CF43716BF4568AFF28AF4 /* Frameworks */,
+				B989C5CE06BE469097BB996A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DTBonjour";
+			productName = "Pods-DTBonjour";
+			productReference = 7F1508FA9634482CB439FE30 /* libPods-DTBonjour.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74A97E701064907A16A74B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 15FCD2B8E4D1493BAE06257C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8053608943C04F99A5487ED9;
+			productRefGroup = 06BC0B5903A142B3A41CD1D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFE193A5F804E37A1DA58D3 /* Pods */,
+				53F81CB08B9C4A31AF48DB0E /* Pods-DTBonjour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786DF994ECF3493E89AC6867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0980DB2E56442B9BE384C6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C263C7C7F18B4440B284AADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5561B0A43A8E4490BDB9F5D3 /* DTBonjourDataChunk.m in Sources */,
+				C207A22399194CCFB808B5FE /* DTBonjourDataConnection.m in Sources */,
+				3CBE4392F5094E3C816CDB35 /* DTBonjourServer.m in Sources */,
+				07BD41961E4D4290B1338385 /* NSScanner+DTBonjour.m in Sources */,
+				54480B80D5584AF4AF8B8B2E /* Pods-DTBonjour-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2CACD6AAAB44C784E6E509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F81CB08B9C4A31AF48DB0E /* Pods-DTBonjour */;
+			targetProxy = 7B51F3D533004B8AB3F4F464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01739801513E41949011F200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		28DC50D683374963A24ACCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A848F4B0C6495EB4352556 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC30DDF2AD2415DA19E3289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C2F2DE43E6464C9F05A195 /* Pods-DTBonjour-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-DTBonjour-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7AE4B1FDD75244478724FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A848F4B0C6495EB4352556 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF21E0976164442B8237C71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C2F2DE43E6464C9F05A195 /* Pods-DTBonjour-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-DTBonjour-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1088C5FAB96426B840F394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A4D7D19B10409CB6EB0CA0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE4B1FDD75244478724FBD5 /* Debug */,
+				28DC50D683374963A24ACCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FCD2B8E4D1493BAE06257C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01739801513E41949011F200 /* Debug */,
+				E1088C5FAB96426B840F394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2A8E2245824768AB3D75AA /* Build configuration list for PBXNativeTarget "Pods-DTBonjour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC30DDF2AD2415DA19E3289 /* Debug */,
+				AF21E0976164442B8237C71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74A97E701064907A16A74B8 /* Project object */;
+}
